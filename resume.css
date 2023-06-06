@@ -79,7 +79,7 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 40px;
+  padding: 20px;
   padding-bottom: 0;
 }
 
@@ -320,7 +320,7 @@ p {
 
 .about.skills .skill-set {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .about.skills .skill-set .box {
   margin: 10px 0;
