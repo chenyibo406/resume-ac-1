@@ -65,12 +65,12 @@ body {
 .container {
   position: relative;
   width: 100%;
-  /* max-width: 1000px; */
+  max-width: 1000px;
   background: #fff;
-  /* margin: 50px; */
-  /* box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1); */
-  /* border-left: 50px solid #fff;
-  border-right: 50px solid #fff; */
+  margin: 50px;
+  box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
+  border-left: 50px solid #fff;
+  border-right: 50px solid #fff;
 }
 
 /* Top Column ----------------------------------------------- */
@@ -79,7 +79,7 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 20px;
+  padding: 40px;
   padding-bottom: 0;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .container .top .profileText h3 {
-  font-size: 5em;
+  font-size: 3em;
   letter-spacing: 0.1em;
   line-height: 1.2em;
   font-weight: 600;
@@ -153,8 +153,6 @@ body {
   letter-spacing: 0.1em;
   margin-bottom: 20px;
   margin-top: 50px;
-
-  font-size: 2em;
 }
 
 .container .contentBox ul {
@@ -169,8 +167,6 @@ body {
   color: #333;
   cursor: pointer;
   display: flex;
-
-  font-size: 1.2em;
 }
 
 .container .contentBox ul li i {
@@ -184,22 +180,16 @@ body {
 .container .contentBox ul.education li {
   flex-direction: column;
   margin: 25px 0;
-
-  font-size: 1.2em;
 }
 
 h5 {
   color: #3590d2;
-
-  font-size: 1em;
 }
 
 h4 {
   color: #333;
   font-weight: 500;
   margin: 5px 0;
-
-  font-size: 1em;
 }
 h6 {
   color: #666;
@@ -215,7 +205,6 @@ h6 {
 
 .language li span {
   color: #333;
-  /* font-size: 16px; */
   font-size: 16px;
   font-weight: 500;
 }
@@ -252,8 +241,6 @@ h6 {
   align-items: center;
   gap: 10px;
   margin: 20px 0;
-
-  font-size: 1.3em;
 }
 
 .container .contentBox ul.interest li .icon {
@@ -289,21 +276,14 @@ p {
   margin: 20px 0;
 }
 
-.about p {
-  font-size: 1.2em;
-}
-
 .about .box .year_company {
-  min-width: 250px;
-  /* width: 150px; */
+  min-width: 150px;
   margin-bottom: 10px;
 }
 
 .about .box .year_company h5 {
   color: #333;
   font-weight: 600;
-
-  font-size: 20px;
 }
 
 .about .box .year_company h5:nth-child(1) {
@@ -314,13 +294,11 @@ p {
   color: #3590d2;
   font-size: 16px;
   margin: 0;
-
-  font-size: 20px;
 }
 
 .about.skills .skill-set {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .about.skills .skill-set .box {
   margin: 10px 0;
